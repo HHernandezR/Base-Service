@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "aa4fa981-030c-4efd-a2ab-6fab18d3d394",
+		"name": "Base",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ping",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8092/base/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"base",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Y1s5/TlVQPyAoQVcKq0C98WbAq1N9socahx7hZgzT+mObQysU0SrnkqL1f3GPAFeGMjfBwCB1k+vSe5gIw5XTvV42m4iIJ2RZc6v3AXRx1xrTY/WeOMk+PaJTCgxjd/GTRZrS1+9y9i54dN6aZZ7bo+8VaM2VdCnxytR82IsV/Qm6rqKT84mNq8YfZS39zigU4hBXUwFruaaG9T/3YAihd2t28CcXzKv+M3gcuue40TD3hmAqsUDk759VE53thLMQ1CZRR3qZBf4LKe7NJ/CRYytZ9alKyN39HbvJjDa4A1tBjEvsA2TgNsXqPpqPzjCJgXgGasqNNiFL4srTWHw9jSFWzOZTZBNkU/gGehFndyim1cdLPThy/tIaRdAp52hE8plUVmXwCQC8nGk1g5LRkxJnGdEJBfDGPBZaBKdccnBcS9h8fUKFxyuGWhUliEZLFYBmAk7C54wRcwcSqZNHixKgfOXL/uHd7XKJun7u1hDh3DLWNsnVpTGQAKlPwtuRrH5nQv4/bFUBpSJa8Zn8+jBN+8D8gqT3IbZs1x5ZuPa1IBtTpiNyQSN4ebfEOUIco2TGfUsuQ+kF8Vnm4riv8H1LSbg6oJQpwSdGapx+YQL5IL073rHhTH+NE0rp6W/CfIV072BJJqrO/eoIyC7UYPArT5A5C5w/YRuO8J3UZ4=",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gFVs5GwgclMZv8OdGH3eOG05fD3dh9mNFePsMVVoftOy8s2uFJIckxI6BbvZ+p4VxIKIJ32q7IO2jGpVSclHdBhgecy90GTRK67uwWHIXIBVJ55mz/vu0frTuqw93t9pXU5vwNOFp1PbrmFEkWPvg4qWDa7ZikQk/pvORtvGeMZsos3IuTNcS1QP8w/KLizdP8e7SfbVV6hOk2LBZyNVL0owK0Sv2CDvrS0Vq+GiGqjlSXxc+NSBISD2DxBYE5DAiijyM/O0gpFV7cLFAkyzykNquWeHE2qS4/NI3QPDr+mUM9nmODm37a5FArMGg2VedrqNNWT9O4ATnFcuDVAbJxglpWbJ1lyTm13MgDLsQZfD8y7yGRT5r0Vpmk4A0B7QWLsCcGDFvGl7kptS+jFK1GupY1kwkBF8aCcbJ09TUe4ooFZ2Pku4mOSgiwPynfcKb5Q1QStKuK0YbKcj/iwo0foKfOl7rKD6bCEoPtvM5Qtr6FTQHgTTT+tFElfGQMTyY3+5jibafvNbtJUHFnkrfGva8v0tIodGdjrOs/hThahx3SBabJLu4FTNIE0gaH3PKzRU2u56/WK9+YBIsvAVVtErUpMAJ/VHwp5pkVnkaNap4Gn9L4ymx1xpdKvWx40SqL4tuIdynuLyV94NeYMtxOXjyvUU0XY1HbXtB0BHBoM=",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idUser\": \"12345\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8092/base/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8092",
+					"path": [
+						"base",
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
